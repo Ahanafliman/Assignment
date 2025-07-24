@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.img{ 
+    width: 100%;
+    height: 100%;
+}
+.color{
+    color: #E95A08;
+}
+
+.color2{
+    color: #8987A1;
+}
+.color3{
+    color: #00000075;
+}
+
+.navbar {
+    justify-content: space-between;
+    margin: 30px 100px;
+    text-align: center;
+    align-items: center;
+}
+.navbar , .nav-items{
+    display: flex;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+
+  
+.banner-container {
+    display: flex;
+    margin: 120px 120px;
+    justify-content: space-around;
+
+
+}
+.banner-container h3{
+    font-size: 4em;
+    font-weight: bold;
+}
+.banner-container p{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+
+
+section h3 {
+    
+    font-size: 3.2em;
+    text-align: center;
+    font-weight: bold;
+}
+section h4{
+    margin: 2px;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 250px;
+    text-align:center;
+    gap: 20px;
+    
+}
+.lilly {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.price{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.btn{
+    height: 50px;
+    width: 265px;
+    padding: auto 50px;
+    background-color:#E95A08;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.flower-store {
+    display: flex;
+    margin: 250px 300px;
+    justify-content: space-around;
+    
+}
+
+section ul li {
+    margin-bottom: 20px ;
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+section div h6{
+    font-size: 3.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+section div {
+    margin-top: 10px ;
+    justify-content: center;
+}
+.trusted-badge {
+    position: relative;
+    right:150px;
+    bottom: 150px;
+    
+}
+
+
+section h1{
+    font-size: 3.25em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.deals-information {
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 350px;
+    align-items: center;
+
+    
+}
+.deals-img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.bloom{
+    position: relative;
+    right:410px ;
+    bottom: 400px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ana{
+    position: relative;
+    right:410px ;
+    bottom: 250px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.zabo {
+    position: relative;
+    right:-200px ;
+    bottom: 480px;
+    font-size: 2.85em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.shop{
+    font-size: 0.70em;
+}
+
+.row {
+    height: 500px;
+}
+footer section div img{ 
+    height: 533px;
+    width: 1900px;
+}
+.footer-contain img {
+    
+}
+footer{
+    
+}
+.btn1{
+    height: 50px;
+    width: 600px;
+    background-color: #FFFFFF;
+    color: #0000007a;
+    padding: 20px 500px 20px 10px;
+    border: none;
+    position: relative;
+    bottom: 450px;
+    left: 500px;
+    
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 20px auto;
+    border: none;
+    position: relative;
+    bottom: 453px;
+    left: 500px;
+    
+}
+.bunch {
+    font-size: 3.25em;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    bottom:500px ;
+    left: 600px;
+}
+        
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 170px;
+    
+}
+.footer-items img {
+    height: 82px;
+    width: 135px;
+}
+.footer-items ul{
+    list-style: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #6B7280;
+}
+.footer-items p{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #0000007a;
+}
+
+.footer-img{
+    height: 5px;
+    width: 5px;
+    margin: 20px 15px;
+    display: flex;
+    gap: 24px;
+}
